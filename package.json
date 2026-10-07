@@ -1,0 +1,15 @@
+{
+  "name": "nimbus",
+  "version": "1.0.0",
+  "description": "Nimbus - a lightweight tabbed web browser (search powered by Google)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": { "appId": "com.nimbus.browser", "productName": "Nimbus" }
+}
